@@ -14,6 +14,7 @@
 		F5E19DFB2BCD47EC00513C45 /* SwiftToDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E19DFA2BCD47EC00513C45 /* SwiftToDoTests.swift */; };
 		F5E19E052BCD47EC00513C45 /* SwiftToDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E19E042BCD47EC00513C45 /* SwiftToDoUITests.swift */; };
 		F5E19E072BCD47EC00513C45 /* SwiftToDoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E19E062BCD47EC00513C45 /* SwiftToDoUITestsLaunchTests.swift */; };
+		F5E19E142BCD47F900513C45 /* Homescreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E19E132BCD47F900513C45 /* Homescreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F5E19E002BCD47EC00513C45 /* SwiftToDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftToDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5E19E042BCD47EC00513C45 /* SwiftToDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToDoUITests.swift; sourceTree = "<group>"; };
 		F5E19E062BCD47EC00513C45 /* SwiftToDoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftToDoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F5E19E132BCD47F900513C45 /* Homescreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homescreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F5E19DE92BCD47EA00513C45 /* SwiftToDoApp.swift */,
 				F5E19DEB2BCD47EA00513C45 /* ContentView.swift */,
+				F5E19E132BCD47F900513C45 /* Homescreen.swift */,
 				F5E19DED2BCD47EC00513C45 /* Assets.xcassets */,
 				F5E19DEF2BCD47EC00513C45 /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5E19DEC2BCD47EA00513C45 /* ContentView.swift in Sources */,
+				F5E19E142BCD47F900513C45 /* Homescreen.swift in Sources */,
 				F5E19DEA2BCD47EA00513C45 /* SwiftToDoApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
